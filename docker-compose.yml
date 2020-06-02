@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  20200531nlplearnbert:
+    image: 20200531nlplearnbert
+    build:
+      context: .
+      dockerfile: Dockerfile
